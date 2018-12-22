@@ -128,3 +128,10 @@ We also have a [contributor's guide](https://beam.apache.org/contribute/contribu
     ```
     $ git push origin master
     ```
+    
+## [Setup IntelliJ IDE](https://cwiki.apache.org/confluence/display/BEAM/Using+IntelliJ+IDE)
+* [How to contribute](https://beam.apache.org/contribute/)
+* [Set up IntelliJ from scatch](https://cwiki.apache.org/confluence/display/BEAM/Set+up+IntelliJ+from+scratch)
+* [Build and test a single module](https://cwiki.apache.org/confluence/display/BEAM/Build+and+test+a+single+module)
+* [Java tips](https://cwiki.apache.org/confluence/display/BEAM/Java+Tips)
+
