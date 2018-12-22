@@ -109,3 +109,22 @@ We also have a [contributor's guide](https://beam.apache.org/contribute/contribu
 * [Apache Beam](http://beam.apache.org)
 * [Overview](http://beam.apache.org/use/beam-overview/)
 * Quickstart: [Java](https://beam.apache.org/get-started/quickstart-java), [Python](https://beam.apache.org/get-started/quickstart-py), [Go](https://beam.apache.org/get-started/quickstart-go)
+
+
+## [Sync with original repo](https://help.github.com/articles/merging-an-upstream-repository-into-your-fork/)
+1. Open git bash, move to your local project directory
+2. Check out the branch which you wish to merge to. Usually, it is master
+    ```
+    $ git checkout master
+    ```
+3. Pull the desired branch from the original repository. This method shall retain all the commit history without modification
+    ```
+    $ git pull https://github.com/apache/beam.git <branch name>
+    ```
+4. If there are any conflicts, resolve them (for more information, see [Addressing merge conflicts](https://help.github.com/articles/addressing-merge-conflicts/))
+5. Commit the merge
+6. Review the changes and ensure they are satisfactory
+7. Final, push the merge to your Github repo
+    ```
+    $ git push origin master
+    ```
